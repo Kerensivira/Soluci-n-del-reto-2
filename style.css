@@ -1,12 +1,18 @@
 div.Menú{
 
 background-color: black;
-font-family: 'Bebas Neue', cursive;
+
 }
 
 div.Menú a:hover { background: silver; }
 
-.nav-modificación
+.nav-modificación{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50%;
+    color: snow;
+
+}
 
 div.Logo{
 
