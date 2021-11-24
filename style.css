@@ -2,10 +2,11 @@ div.Menú{
 
 background-color: black;
 font-family: 'Bebas Neue', cursive;
-a:hover;
 }
+
+div.Menú a:hover { background: silver; }
 
 div.Logo{
 
-    
+
 }
