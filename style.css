@@ -1,6 +1,10 @@
 
 /* Estilo Barra de navegación */
 
+*.barra-Navegación{
+
+    display: inline;
+}
 .barra-Navegación{
 
 background-color: black;
@@ -21,5 +25,10 @@ div.Menú a:hover { background: silver; }
 
     width: 5cm;
     height: 5cm;
+
+}
+
+.título{
+    color: white;
 
 }
