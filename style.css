@@ -42,9 +42,9 @@ padding: 10px;
 }
 
 .slider{
-
+display: flex;
     width: 400%;
-    height: 400%;
+    height: 400px;
 
 }
 
