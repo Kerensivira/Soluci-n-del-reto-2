@@ -36,7 +36,7 @@ margin: 0 auto, 0 auto;
 
 /*Slider*/
 
-.container-slider*{
+.container-slider{
     box-sizing: border-box;
     width: 90%;
     max-width: 900px;
