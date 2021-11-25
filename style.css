@@ -4,14 +4,15 @@
 nav{
 
 background-color: rgba(13, 55, 243, 0.664);
-padding: 10px;
-
+padding: 0 20px;
+width: 600px;
+height: 10px;
 }
 
 .nav-modificación{
 
     font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     color: rgba(0, 0, 0, 0.651);
     padding: 10px 30px;
     display: inline-block;
