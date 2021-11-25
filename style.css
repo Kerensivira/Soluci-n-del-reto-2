@@ -7,11 +7,11 @@
 }
 .barra-Navegación{
 
-background-color: black;
+background-color: silver;
 
 }
 
-div.Menú a:hover { background: silver; }
+div.Menú a:hover { background: white; }
 
 .nav-modificación{
 
@@ -28,13 +28,15 @@ div.Menú a:hover { background: silver; }
 
 }
 
-.título{
-    color: white;
-
-}
 
 /*Slider*/
 
 .container-slider*{
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background: coral;
 }
