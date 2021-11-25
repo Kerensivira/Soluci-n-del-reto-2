@@ -32,3 +32,9 @@ div.Menú a:hover { background: silver; }
     color: white;
 
 }
+
+/*Slider*/
+
+.container-slider*{
+    box-sizing: border-box;
+}
