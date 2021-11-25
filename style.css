@@ -36,6 +36,8 @@ padding: 10px;
 
 .container-slider*{
     box-sizing: border-box;
+    width: 90%;
+    max-width: 900px;
 }
 
 body{
@@ -46,6 +48,9 @@ body{
 
 .slider-section{
 
+    display: block;
+    width: 100%;
+    
 }
 
 .img-slider{
