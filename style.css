@@ -41,5 +41,5 @@ padding: 10px;
 body{
     display: flex;
     min-height: 100vh;
-    background: coral;
+    background: rgb(0, 47, 255);
 }
