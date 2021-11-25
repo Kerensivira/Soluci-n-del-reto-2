@@ -1,9 +1,10 @@
 
 /* Estilo Barra de navegación */
 
-.barra-Navegación{
+nav{
 
 background-color: silver;
+padding: 10px;
 
 }
 
