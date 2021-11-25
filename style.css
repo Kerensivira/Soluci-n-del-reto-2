@@ -38,6 +38,7 @@ padding: 10px;
     box-sizing: border-box;
     width: 90%;
     max-width: 900px;
+    margin: auto;
     
 }
 
@@ -55,8 +56,7 @@ body{
 }
 
 .slider-section{
-
-    
+width: 100%;    
     
 }
 
