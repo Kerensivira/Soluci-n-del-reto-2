@@ -1,10 +1,6 @@
 
 /* Estilo Barra de navegación */
 
-*.barra-Navegación{
-
-    display: inline;
-}
 .barra-Navegación{
 
 background-color: silver;
@@ -15,10 +11,10 @@ div.Menú a:hover { background: white; }
 
 .nav-modificación{
 
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
     color: black;
-
+    
 }
 
 .imagen{
