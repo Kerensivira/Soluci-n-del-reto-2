@@ -12,7 +12,7 @@ padding: 10px;
 
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
-    color: black;
+    color: rgba(0, 0, 0, 0.651);
     padding: 10px 30px;
     display: inline-block;
     text-decoration: none;
@@ -49,5 +49,5 @@ body{
 }
 
 .img-slider{
-    
+
 }
