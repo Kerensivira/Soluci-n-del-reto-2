@@ -7,15 +7,21 @@ background-color: silver;
 
 }
 
-div.Menú a:hover { background: white; }
-
 .nav-modificación{
 
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     color: black;
-    
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+
 }
+
+.nav-modificación:hover{
+    background-color: violet;
+}
+
 
 .imagen{
 
