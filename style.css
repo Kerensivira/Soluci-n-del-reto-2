@@ -44,7 +44,7 @@ margin: 0 auto, 0 auto;
     overflow: hidden;
     box-shadow: 0 0 0 10px, white,
                 0 15 50px;
-                position:absolute, bottom;
+                position: 10, 10;
     
 }
 
