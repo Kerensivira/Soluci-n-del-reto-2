@@ -39,6 +39,9 @@ padding: 10px;
     width: 90%;
     max-width: 900px;
     margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px, white,
+                0 15 50px;
     
 }
 
