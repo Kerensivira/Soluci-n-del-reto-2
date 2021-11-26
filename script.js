@@ -8,3 +8,5 @@ let slidersectionLast = slidersection[slidersection.length-1];
 
 const btnDer = document.querySelector("#derecha");
 const btnIzq = document.querySelector("#izquierda");
+
+console.log ("hello")
