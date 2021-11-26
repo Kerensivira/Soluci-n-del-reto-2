@@ -28,8 +28,8 @@ margin: 0 auto, 0 auto;
 
 .imagen{
 
-    width: 5cm;
-    height: 5cm;
+    width: 5px;
+    height: 5px;
 
 }
 
@@ -51,7 +51,7 @@ margin: 0 auto, 0 auto;
 
 .slider{
 display: flex;
-    width: 400%;
+    width: 400px;
     height: 400px;
 
 }
