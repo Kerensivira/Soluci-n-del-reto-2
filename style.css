@@ -54,8 +54,8 @@ margin: 0 auto, 0 auto;
 }
 
 .slider{
-display: flex;
-    width: 400px;
+display: inline-flex;
+    width: 500px;
     height: 400px;
 
 }
