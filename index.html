@@ -1,55 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!-- Coloqué mi firma en los metadatos.-->
+
 <head>
+    <meta name="autor" content="Alexandra Sivira.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Agregué el título de la página y enlacé el archivo de estilos usados  -->
+
     <title>Blockbuster</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style copy.css">
 </head>
-<header>
-    <nav id="navbarID" class="barra-Navegación">
-
-        <div id="Logo" class="Logo clDisplay-inline">
-            <h3 class="título">Blockbuster para Centenials</h3>
-            <img class="imagen" src="./logo.png"
-                alt="Blockbuster Logo">
-        </div>
-
-        <div id="Menú" class="alinear2 clDisplay-inline">
-            <a href="#" class="nav-modificación">Inicio</a>
-            <a href="#" class="nav-modificación">Archivo</a>
-            <a href="#" class="nav-modificación">Contáctenos</a>
-        </div>
-    </nav>
-</header>
 
 <body>
+
+    <!-- Abrí un header, dentro hice la primera división que contiene mi barra de navegación; agregué una
+    etiqueta de texto para realizar mi logotipo con css y finalmente abrí una etiqueta NAV donde estarían las opciones
+solicitadas. -->
+
+    <header>
+        <div class="Navbar">
+
+            <h3 class="Logo">Blockbuster for Centenials</h3>
+
+            <nav id="navbarID">
+                <div id="Menú" class="menú1">
+                    <a href="#" class="nav-modificación">Inicio</a>
+                    <a href="#" class="nav-modificación">Registro</a>
+                    <a href="#" class="nav-modificación">Películas</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
 
     <div class="container-slider">
 
         <div class="slider" id="slider">
 
             <div class="slider-section">
-                <img src="./cazafantasmas.jpg" alt="ghostbusters el legado" class="img-slider">
+                <a href="#"><img src="./cazafantasmas.jpg" alt="ghostbusters el legado" class="img-slider"></a>
             </div>
 
             <div class="slider-section">
-                <img src="./eternals.jpg" alt="ETERNALS" class="img-slider">
+                <a href="#"><img src="./eternals.jpg" alt="ETERNALS" class="img-slider"></a>
             </div>
 
             <div class="slider-section">
-                <img src="./notimetodie2.jpg" alt="007" class="img-slider">
+                <a href="#"><img src="./notimetodie2.jpg" alt="007" class="img-slider"></a>
             </div>
-            <div id="derecha" class="slider-btn"> > </div>
-            <div id="izquierda" class="slider-btn">
-                < </div>
-            </div>
-
         </div>
+
+        <div class="imagenes-descripcion">
+
+            <ul>
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+                <li>
+                    <h3></h3>
+                    <img src="" alt="">
+                    <a href="#"><button class="redirección" value="compra">Ver más</button></a>
+                </li>
+
+            </ul>
+        </div>
+
+
     </div>
+
     <script src="./script.js"></script>
 </body>
+
+<footer>
+    Ejercicio n. 2
+    Todos los derechos reservados Alexandra Sivira.
+</footer>
 
 </html>

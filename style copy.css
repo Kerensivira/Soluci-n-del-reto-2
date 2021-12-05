@@ -1,0 +1,54 @@
+ *{
+    background-color: rgb(12, 11, 11);
+    margin: 3% 3% 3% 2%;
+    padding: 0%;
+}
+
+
+
+
+/* Estilo Barra de navegación */
+
+.Navbar{
+
+    background-color: blue;
+    padding: 100px;
+display: inline;
+}
+
+.menú1{
+
+font-size: 20px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+float: right;
+
+}
+
+
+/* .imagen{
+
+width: 160px;
+height: 100px;
+margin: bottom 20%;
+display: block inline;
+
+} */
+
+.slider{
+
+ display: inline-flex;
+ width: 500px;
+height: 400px;
+ 
+}
+
+.container-slider{
+box-sizing: border-box;
+max-width: 900px;
+width: 90px;
+/* overflow: hidden; */
+margin: auto;
+}
+
