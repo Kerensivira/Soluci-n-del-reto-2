@@ -86,11 +86,11 @@ ul, li {
     }
 
 
-    ul, li {
+    ul.slider {
 
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        position: relative;
+        width: 800px;
+        height: 300px;
          
          }
 
