@@ -43,16 +43,15 @@ h3.Logo{
     margin-top: 1%;
     }
 
+    
 
-header nav a {
+.search{
 
-    color: rgba(170, 170, 170, 0.658);
-    text-decoration: none;
-    margin-right: 20px;
-
+border-radius: 5px;
+background-color: transparent;
+color: rgb(2, 1, 1);
+ 
 }
 
-header nav a:hover,
-header nav a.activo {
-color: white; 
-}
+.search::placeholder{color: rgba(255, 255, 255, 0.835);}
+.search:focus{background-color: whitesmoke;}
