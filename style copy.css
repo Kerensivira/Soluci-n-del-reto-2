@@ -1,7 +1,6 @@
  :root{
     --amarillo: #fbff00;
     --azul: #0b0ba5ee; 
-    --fondo: #000000;
 
 }
  
@@ -9,49 +8,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
-
-    background: var(--fondo);
     font-family: 'Open Sans', sans-serif;
-
+    background-color: #000000;
 }
 
                                           /* ESTILO DE LA BARRA DE NAVEGACIÓN. */
 
+
+
 .Navbar{
 
+margin-top: 0%;
+margin-bottom: 2%;
+background-color: var(--azul);
 width: 100%;
-margin: auto;
-
-}
-
-header{
-
-    padding: 3% 0%;
-    background-color: var(--azul);
-
-}
-
-
-div.Navbar{
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 
 }
 
 h3.Logo{
 
-font-family: 'Bebas Neue', cursive;
-font-weight: normal;
-color: var(--amarillo);
-font-size: 200%;
-margin-left: 1%;
-}
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--amarillo);
+    font-size: 200%;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+
 
 header nav a {
 
@@ -59,17 +50,9 @@ header nav a {
     text-decoration: none;
     margin-right: 20px;
 
-
 }
 
 header nav a:hover,
 header nav a.activo {
-color: white;
+color: white; 
 }
-
-
-   
-
-
-
-
